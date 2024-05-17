@@ -6,3 +6,4 @@ modprobe -- ip_vs_sh
 modprobe -- nf_conntrack_ipv4
 modprobe overlay
 modprobe br_netfilter
+modprobe ip_conntrack

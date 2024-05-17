@@ -48,9 +48,9 @@
     dest: /etc/sysconfig/modules/
     mode: 0755
 
-- name: load sysctl 
-  shell: "sysctl -p /etc/sysctl.d/99-kubernetes-cri.conf"
-
 - name: run shell 
   shell: "bash /etc/sysconfig/modules/ipvs.modules && lsmod | grep -e ip_vs -e nf_conntrack_ipv4" 
+
+- name: load sysctl 
+  shell: "sysctl -p /etc/sysctl.d/99-kubernetes-cri.conf"
   

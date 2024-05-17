@@ -61,5 +61,5 @@ ansible-playbook -i hosts/xxx setup.yml --sy
 # deploy
 ansible-playbook -i hosts/xxx setup.yml
 ```
-#### Warning
-Currently available for testing and pre-release environments, please modify the configuration and deployment as needed in the production environment
+#### [ 😄😄😄 ]
+It has been verified in an enterprise-level production environment and no problems were found.
